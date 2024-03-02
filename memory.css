@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: cadetblue;
+    width: 750px;
+    margin: 0 auto;
+    border: 3px solid black;
+    padding: 0 2em 1em;
+}
+
+p a {
+    color: black;
+}
+
+h1 {
+    font-size: 150%;
+    color: black;
+    margin-bottom: .5em;
+}
+
+#tabs ul {
+    display: flex;
+    list-style-type: none;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+#cards div {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+#tabs-1 img {
+    width: 40px;
+}
+
+#tabs-2 ul {
+    display: block;
+    list-style-type: disc;
+}
+
+#tabs-2,
+#tabs-3 {
+    display: none;
+}
+
+label {
+    float: left;
+    width: 8em;
+}
+
+input,
+select {
+    width: 10em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+input[type=checkbox] {
+    width: 2em;
+}
+
+header p {
+    margin: 0 2em 1em 0;
+}
+
+#new_game,
+#player,
+#high_score,
+#correct {
+    float: left;
+}
+
+#cards img {
+    height: 100px;
+    width: 80px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
